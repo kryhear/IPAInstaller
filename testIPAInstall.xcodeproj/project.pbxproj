@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045C6DF4159C57DE005B8D67 /* MobileInstallation in Frameworks */ = {isa = PBXBuildFile; fileRef = 045C6DF3159C57DE005B8D67 /* MobileInstallation */; };
+		045C6DFA159C5A71005B8D67 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 045C6DF7159C5A71005B8D67 /* SVProgressHUD.bundle */; };
+		045C6DFB159C5A71005B8D67 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 045C6DF9159C5A71005B8D67 /* SVProgressHUD.m */; };
+		045C6DFD159C5B5A005B8D67 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045C6DFC159C5B5A005B8D67 /* QuartzCore.framework */; };
+		045C6E03159C5F2D005B8D67 /* HelloIPA.ipa in Resources */ = {isa = PBXBuildFile; fileRef = 045C6E02159C5F2D005B8D67 /* HelloIPA.ipa */; };
+		045C6E05159C5F4B005B8D67 /* HelloIPA_simulator.ipa in Resources */ = {isa = PBXBuildFile; fileRef = 045C6E04159C5F4B005B8D67 /* HelloIPA_simulator.ipa */; };
+		0475D036159C068100208D71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0475D035159C068100208D71 /* UIKit.framework */; };
+		0475D038159C068100208D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0475D037159C068100208D71 /* Foundation.framework */; };
+		0475D03A159C068100208D71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0475D039159C068100208D71 /* CoreGraphics.framework */; };
+		0475D040159C068100208D71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0475D03E159C068100208D71 /* InfoPlist.strings */; };
+		0475D042159C068100208D71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475D041159C068100208D71 /* main.m */; };
+		0475D046159C068100208D71 /* BSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475D045159C068100208D71 /* BSAppDelegate.m */; };
+		0475D049159C068100208D71 /* BSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475D048159C068100208D71 /* BSViewController.m */; };
+		0475D04C159C068100208D71 /* BSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0475D04A159C068100208D71 /* BSViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		045C6DF3159C57DE005B8D67 /* MobileInstallation */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = MobileInstallation; sourceTree = "<group>"; };
+		045C6DF7159C5A71005B8D67 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		045C6DF8159C5A71005B8D67 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		045C6DF9159C5A71005B8D67 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		045C6DFC159C5B5A005B8D67 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		045C6E02159C5F2D005B8D67 /* HelloIPA.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelloIPA.ipa; sourceTree = "<group>"; };
+		045C6E04159C5F4B005B8D67 /* HelloIPA_simulator.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelloIPA_simulator.ipa; sourceTree = "<group>"; };
+		0475D031159C068100208D71 /* testIPAInstall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testIPAInstall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0475D035159C068100208D71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0475D037159C068100208D71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0475D039159C068100208D71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0475D03D159C068100208D71 /* testIPAInstall-Info.plist */ = {isa = PBXFileReference; path = "testIPAInstall-Info.plist"; sourceTree = "<group>"; };
+		0475D03F159C068100208D71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0475D041159C068100208D71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0475D043159C068100208D71 /* testIPAInstall-Prefix.pch */ = {isa = PBXFileReference; path = "testIPAInstall-Prefix.pch"; sourceTree = "<group>"; };
+		0475D044159C068100208D71 /* BSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSAppDelegate.h; sourceTree = "<group>"; };
+		0475D045159C068100208D71 /* BSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSAppDelegate.m; sourceTree = "<group>"; };
+		0475D047159C068100208D71 /* BSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSViewController.h; sourceTree = "<group>"; };
+		0475D048159C068100208D71 /* BSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSViewController.m; sourceTree = "<group>"; };
+		0475D04B159C068100208D71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BSViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0475D02E159C068100208D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045C6DFD159C5B5A005B8D67 /* QuartzCore.framework in Frameworks */,
+				0475D036159C068100208D71 /* UIKit.framework in Frameworks */,
+				0475D038159C068100208D71 /* Foundation.framework in Frameworks */,
+				0475D03A159C068100208D71 /* CoreGraphics.framework in Frameworks */,
+				045C6DF4159C57DE005B8D67 /* MobileInstallation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045C6DF6159C5A71005B8D67 /* SVProgessHUD */ = {
+			isa = PBXGroup;
+			children = (
+				045C6DF7159C5A71005B8D67 /* SVProgressHUD.bundle */,
+				045C6DF8159C5A71005B8D67 /* SVProgressHUD.h */,
+				045C6DF9159C5A71005B8D67 /* SVProgressHUD.m */,
+			);
+			path = SVProgessHUD;
+			sourceTree = "<group>";
+		};
+		0475D026159C068100208D71 = {
+			isa = PBXGroup;
+			children = (
+				045C6DFC159C5B5A005B8D67 /* QuartzCore.framework */,
+				045C6DF6159C5A71005B8D67 /* SVProgessHUD */,
+				0475D03B159C068100208D71 /* testIPAInstall */,
+				0475D034159C068100208D71 /* Frameworks */,
+				0475D032159C068100208D71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0475D032159C068100208D71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0475D031159C068100208D71 /* testIPAInstall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0475D034159C068100208D71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0475D035159C068100208D71 /* UIKit.framework */,
+				0475D037159C068100208D71 /* Foundation.framework */,
+				0475D039159C068100208D71 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0475D03B159C068100208D71 /* testIPAInstall */ = {
+			isa = PBXGroup;
+			children = (
+				0475D044159C068100208D71 /* BSAppDelegate.h */,
+				0475D045159C068100208D71 /* BSAppDelegate.m */,
+				0475D047159C068100208D71 /* BSViewController.h */,
+				0475D048159C068100208D71 /* BSViewController.m */,
+				0475D04A159C068100208D71 /* BSViewController.xib */,
+				0475D03C159C068100208D71 /* Supporting Files */,
+			);
+			name = testIPAInstall;
+			path = testMobileInstallationInstall;
+			sourceTree = "<group>";
+		};
+		0475D03C159C068100208D71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				045C6DF3159C57DE005B8D67 /* MobileInstallation */,
+				045C6E02159C5F2D005B8D67 /* HelloIPA.ipa */,
+				045C6E04159C5F4B005B8D67 /* HelloIPA_simulator.ipa */,
+				0475D03D159C068100208D71 /* testIPAInstall-Info.plist */,
+				0475D03E159C068100208D71 /* InfoPlist.strings */,
+				0475D041159C068100208D71 /* main.m */,
+				0475D043159C068100208D71 /* testIPAInstall-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0475D030159C068100208D71 /* testIPAInstall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0475D04F159C068100208D71 /* Build configuration list for PBXNativeTarget "testIPAInstall" */;
+			buildPhases = (
+				0475D02D159C068100208D71 /* Sources */,
+				0475D02E159C068100208D71 /* Frameworks */,
+				0475D02F159C068100208D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testIPAInstall;
+			productName = testMobileInstallationInstall;
+			productReference = 0475D031159C068100208D71 /* testIPAInstall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0475D028159C068100208D71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0475D02B159C068100208D71 /* Build configuration list for PBXProject "testIPAInstall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0475D026159C068100208D71;
+			productRefGroup = 0475D032159C068100208D71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0475D030159C068100208D71 /* testIPAInstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0475D02F159C068100208D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0475D040159C068100208D71 /* InfoPlist.strings in Resources */,
+				0475D04C159C068100208D71 /* BSViewController.xib in Resources */,
+				045C6DFA159C5A71005B8D67 /* SVProgressHUD.bundle in Resources */,
+				045C6E03159C5F2D005B8D67 /* HelloIPA.ipa in Resources */,
+				045C6E05159C5F4B005B8D67 /* HelloIPA_simulator.ipa in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0475D02D159C068100208D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0475D042159C068100208D71 /* main.m in Sources */,
+				0475D046159C068100208D71 /* BSAppDelegate.m in Sources */,
+				0475D049159C068100208D71 /* BSViewController.m in Sources */,
+				045C6DFB159C5A71005B8D67 /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0475D03E159C068100208D71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0475D03F159C068100208D71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0475D04A159C068100208D71 /* BSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0475D04B159C068100208D71 /* en */,
+			);
+			name = BSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0475D04D159C068100208D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0475D04E159C068100208D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0475D050159C068100208D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testMobileInstallationInstall/testIPAInstall-Prefix.pch";
+				INFOPLIST_FILE = "testMobileInstallationInstall/testIPAInstall-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/testMobileInstallationInstall\"",
+				);
+				PRODUCT_NAME = testIPAInstall;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0475D051159C068100208D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testMobileInstallationInstall/testIPAInstall-Prefix.pch";
+				INFOPLIST_FILE = "testMobileInstallationInstall/testIPAInstall-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/testMobileInstallationInstall\"",
+				);
+				PRODUCT_NAME = testIPAInstall;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0475D02B159C068100208D71 /* Build configuration list for PBXProject "testIPAInstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0475D04D159C068100208D71 /* Debug */,
+				0475D04E159C068100208D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0475D04F159C068100208D71 /* Build configuration list for PBXNativeTarget "testIPAInstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0475D050159C068100208D71 /* Debug */,
+				0475D051159C068100208D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0475D028159C068100208D71 /* Project object */;
+}
